@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.container {
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: xx-large;
+}
+
+.noitem{
+    display: inline-block;
+    font-size: larger;
+    color: white;
+    padding: 20px;
+   text-align: center;
+   white-space: nowrap;
+
+}
+/* .add {
+  margin-left: 390px;
+} */
+.fa-circle-plus {
+  color: blue;
+  padding: 5px;
+}
+
+.text {
+  display: inline-block;
+  font-size: larger;
+  color: antiquewhite;
+  margin-top: 50px;
+  margin-left: 285px;
+  
+}
+#text{
+
+  display: inline-block;
+  width: 220px;
+}
+
+.popup {
+  height: 179px;
+  width: 363px;
+  border: 2px solid white;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 1px 19px 1px white;
+
+}
+
+.button {
+     height: 40px;
+    width: 112px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    display: inline-block;
+    margin-top: 10px;
+}
+.button1 {
+  /* margin-right: 20px; */
+}
+
+#container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.box {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+.hr{
+  box-shadow: 9px 1px 17px 3px white;
+ 
+
+  
+}
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: inline-block;
+  height: 28px;
+  width: 9px;
+  background-color: white;
+  bottom: 6px;
+  font-size: x-large;
+  position: absolute;
+  left: 167px;
+  border: 2px solid white;
+}
+.button3 {
+  color: red;
+    margin-left: -25px;
+    padding: 4px;
+  
+}
+
+.button4 {
+  color: blue;
+}
+hr{
+  color:black;
+  
+  box-shadow: 2px 2px 2px black;
+  
+}
+
+
+/* /* ----------------------------------add new item ------------------------------- * */
+#done{
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-size: x-small;
+  height: 21px;
+  width: 40px;
+}
+
+
+ @media screen and (min-width: 350px) and (max-width: 730px) {
+ 
+.popup {
+  height: 129px;
+    width: 214px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#text{
+  width: 150px;
+}
+.button{
+  height: 28px;
+    width: 75px;
+}
+h1{
+  font-size: large;
+}
+}
+   

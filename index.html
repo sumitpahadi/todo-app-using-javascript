@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- linking font-awesome CDN link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body id="todolist" class="todoitem">
+    <!-- -------------------------------------------------main-container-------------------------------------------------- -->
+    <div id="maim-container">
+      <div class="container">
+        <div class="list content">Tasks List</div>
+        <div class="blank content"></div>
+        <div class="add content">
+          <i class="fa-solid fa-circle-plus"  onclick="add()" ></i>Add Item
+        </div>
+       
+      </div>
+      <br>
+      <hr class="hr">
+    
+      <br />
+     
+      <div class="noitem"><p>NO item in the list corrently</p></div>
+      <div id="container2"></div>
+      <div id="container3">
+        <!-- Individual task details go here -->
+      </div>
+
+      <!-- -------------------------------------------------text------------------------------------- -->
+    </div>
+
+    <div id="bigcontainer"></div>
+
+
+
+
+
+    <!-- ------------------------------------list------------------------------------------------------------------ -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
