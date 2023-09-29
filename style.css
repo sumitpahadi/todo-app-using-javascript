@@ -105,7 +105,8 @@ h4 {
 }
 
 .buttons {
-  display: inline-block;
+ 
+  display: flex;
   height: 28px;
   width: 9px;
   background-color: white;
